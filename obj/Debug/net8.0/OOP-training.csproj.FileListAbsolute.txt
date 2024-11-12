@@ -12,3 +12,4 @@
 /home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.pdb
 /home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.genruntimeconfig.cache
 /home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/ref/OOP-training.dll
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.sourcelink.json

@@ -9,6 +9,12 @@ static void Main()
 {
  Ride[] rides = new Ride[3];
  new Ride(false);
+ new Ride(false);
+ new Ride(true);
+ foreach (Ride i in rides)
+ {
+Console.WriteLine(i);
+ }
 
 }
 }
@@ -18,6 +24,11 @@ static void Main()
   public void RideRequest(RequestDistribution requestDistribution)
   {
    requestDistribution.RideRequest();
+  }
+
+  public void RemoveDriver()
+  {
+   
   }
  }
 
@@ -32,12 +43,13 @@ static void Main()
  class Driver : RequestDistribution
  {
   public int id {get; set;}
-  public bool IsCarAvailable;
+  public bool IsBusy {get; set;} 
 
-  public Driver(bool IsCarAvailable, int id)
+  
+  public Driver(int id, bool IsBusy)
   {
-   this.IsCarAvailable = IsCarAvailable;
-   this.id = id;
+    this.id = id;
+    this.IsBusy = IsBusy;
   }
 
   public void CarFixRequest(FixRequest request)
@@ -63,19 +75,29 @@ static void Main()
  class Car : FixRequest, RequestDistribution
  {
   public int CarID {get; set;}
-  public bool IsWorking {get; set;}
+  public bool IsBroken {get; set;}
+   public bool IsCarAvailable {get; set;}
   
-
-  public Car(bool IsWorking, int CarID)
+  public void CarBroke()
   {
-    this.IsWorking = IsWorking;
+    if (IsBroken == true)
+    {
+      Console.WriteLine("Машина сломана! Требуется починка!");
+    }
+  }
+
+
+  public Car(bool IsBroken, int CarID, bool IsCarAvailable)
+  {
+    this.IsBroken = IsBroken;
     this.CarID = CarID;
+    this.IsCarAvailable = IsCarAvailable;
     
   }
 
   public void CarFixRequest()
   {
-    IsWorking = true;
+    IsBroken = false;
   }
 
   public void RideRequest()
@@ -94,6 +116,7 @@ static void Main()
   public Ride(bool IsComplited)
   {
     this.IsComplited = IsComplited;
+    Console.WriteLine("Машина починена!");
   }
  }
 
