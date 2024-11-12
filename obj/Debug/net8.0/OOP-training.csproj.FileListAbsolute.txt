@@ -1,0 +1,14 @@
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/bin/Debug/net8.0/OOP-training
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/bin/Debug/net8.0/OOP-training.deps.json
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/bin/Debug/net8.0/OOP-training.runtimeconfig.json
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/bin/Debug/net8.0/OOP-training.dll
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/bin/Debug/net8.0/OOP-training.pdb
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.GeneratedMSBuildEditorConfig.editorconfig
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.AssemblyInfoInputs.cache
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.AssemblyInfo.cs
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.csproj.CoreCompileInputs.cache
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.dll
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/refint/OOP-training.dll
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.pdb
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/OOP-training.genruntimeconfig.cache
+/home/csharp-and-unity/Документы/dotnet_console/OOP-training/obj/Debug/net8.0/ref/OOP-training.dll
